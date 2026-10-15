@@ -11,7 +11,9 @@ const links = [
 export default function Navbar() {
   return (
     <header className="nav">
-      <Link to="/" className="nav-brand">VoiceMark</Link>
+      <Link to="/" className="nav-brand" aria-label="VoiceMark home">
+        <img src="/logo.png" alt="VoiceMark" className="nav-logo" />
+      </Link>
       <nav className="nav-links">
         {links.map(l => (
           <NavLink
