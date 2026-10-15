@@ -48,7 +48,7 @@ export default function Blog() {
           her.
         </p>
         <figure className="blog-figure">
-          <img src="/malala.webp" alt="Illustration of Malala Yousafzai with wings, writing in a book and speaking into a microphone." />
+          <img src={`${import.meta.env.BASE_URL}malala.webp`} alt="Illustration of Malala Yousafzai with wings, writing in a book and speaking into a microphone." />
         </figure>
         <p>
           We have also recently scheduled an interview with Alyssa Hunt, an individual who has

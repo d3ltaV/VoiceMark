@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <header className="nav">
       <Link to="/" className="nav-brand" aria-label="VoiceMark home">
-        <img src="/logo.png" alt="VoiceMark" className="nav-logo" />
+        <img src={`${import.meta.env.BASE_URL}logo.png`} alt="VoiceMark" className="nav-logo" />
       </Link>
       <nav className="nav-links">
         {links.map(l => (
