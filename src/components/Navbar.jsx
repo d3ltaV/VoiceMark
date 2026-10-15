@@ -2,10 +2,7 @@ import { NavLink, Link } from 'react-router-dom'
 
 const links = [
   { to: '/', label: 'Home', end: true },
-  { to: '/mission', label: 'Mission' },
-  { to: '/product', label: 'Product' },
-  { to: '/blog', label: 'Blog' },
-  { to: '/stories', label: 'Stories' }
+  { to: '/blog', label: 'Blog' }
 ]
 
 export default function Navbar() {
